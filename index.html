@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | 3-column preview card component</title>
+
+
+</head>
+<body class="min-h-screen w-full p-5 flex justify-center items-center">
+  <main class="grid grid-cols-1 md:grid-cols-3"> 
+  <div class=" bg-[#e38826] p-10 w-full md:w-[400px] rounded-t-md md:rounded-none md:rounded-l-md">
+    <img src="images/icon-sedans.svg" alt="">
+    <h1 class="uppercase text-3xl text-left py-10">
+      Sedans
+    </h1>
+      <p class="text-xl text-white/80 mb-20">
+        Choose a sedan for its affordability and excellent fuel economy. Ideal for cruising in the city 
+      or on your next road trip.
+      </p>
+      <button class="py-3 px-5 bg-white border-2 border-white text-[#e38826]
+      rounded-full hover:bg-[#e38826] hover:text-white">Learn More</button>
+  </div>
+  <div class=" bg-[#006970] p-10 w-full md:w-[400px]">
+    <img src="images/icon-suvs.svg" alt="">
+    <h1 class="uppercase text-3xl text-left py-10">
+      Suvs
+    </h1>
+      <p class="text-xl text-white/80 mb-20">
+        Take an SUV for its spacious interior, power, and versatility. Perfect for your next family vacation 
+        and off-road adventures.
+      </p>
+      <button class="py-3 px-5 bg-white border-2 border-white text-[#006970]
+      rounded-full hover:bg-[#006970] hover:text-white">Learn More</button>
+  </div>
+  <div class=" bg-[#004341] p-10 w-full md:w-[400px] rounded-b-md md:rounded-none md:rounded-r-md">
+    <img src="images/icon-luxury.svg" alt="">
+    <h1 class="uppercase text-3xl text-left py-10">
+      luxury
+    </h1>
+      <p class="text-xl text-white/80 mb-20">
+        Cruise in the best car brands without the bloated prices. Enjoy the enhanced comfort of a luxury 
+    rental and arrive in <br>style.
+      </p>
+      <button class="py-3 px-5 bg-white border-2 border-white text-[#004341]
+      rounded-full hover:bg-[#004341] hover:text-white">Learn More</button>
+  </div>
+  </div>
+
+  </main>
+</body>
+</html>
